@@ -1,5 +1,5 @@
 {
-  "extends": ["@leke/eslint-config"],
+  "extends": ["@coolh/eslint-config"],
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "no-undefined": "off",

@@ -3,18 +3,6 @@ module.exports = {
     [
       'import',
       {
-        libraryName: '@leke/rc',
-        libraryDirectory: 'es',
-        camel2DashComponentName: false,
-        style(name) {
-          return `${name}/index.less`.replace('/es/', '/style/')
-        }
-      },
-      '@leke/rc'
-    ],
-    [
-      'import',
-      {
         libraryName: 'antd',
         style: true
       },

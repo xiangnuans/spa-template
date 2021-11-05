@@ -1,10 +1,10 @@
 {
-  "name": "score-king",
+  "name": "spa-template",
+  "description": "单页应用",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
-    "@leke/rc": "^1.2.22",
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -69,7 +69,7 @@
   "devDependencies": {
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
-    "@leke/eslint-config": "^1.0.2",
+    "@coolh/eslint-config": "^1.0.2",
     "@types/qs": "^6.9.7",
     "@types/react-router-dom": "^5.3.1",
     "@typescript-eslint/eslint-plugin": "^4.29.1",

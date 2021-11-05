@@ -1,7 +1,5 @@
 import './layout.less';
 
-import { BusinessHeader, Footer, MiniHeader } from '@leke/rc';
-
 import React from 'react';
 import { useTitle } from '@hooks/index';
 
@@ -12,17 +10,7 @@ interface LayoutProps {
 const Layout = (props: LayoutProps) => {
   useTitle('提分王');
   return (
-    <div className="score-king">
-      <MiniHeader />
-      <BusinessHeader
-        icon="brushquestionking"
-        title="提分王"
-        projectName="brushquestionking"
-        defaultSubs={false}
-      />
-      <div className="main-content">{props.children}</div>
-      <Footer />
-    </div>
+    <div>title</div>
   );
 };
 

@@ -70,7 +70,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/auth': {
-        target: 'https://webapp.leke.cn',
+        target: 'https://XXX.cn',
         changeOrigin: true
       }
     }

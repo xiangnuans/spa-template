@@ -4,9 +4,8 @@ import qs from "qs";
 
 const useMock = false;
 const options = {
-  mockUrl: "http://192.168.20.146:3000/mock/338",
   backendUrl: "/auth/global/",
-  noAccessUrl: "https://static.leke.cn/pages/noAccess.html",
+  noAccessUrl: "https://xxx.cn/pages/noAccess.html",
 };
 
 const responseCode = {
