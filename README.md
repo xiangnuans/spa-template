@@ -1,3 +1,16 @@
+
+# 介绍
+基于create-react-app创建的react项目，使用 craco 替代 react-script 进行个性化配置
+
+# 技术栈
+
+react
+react-router
+redux:
+react-redux
+@reduxjs/toolkit
+
+
 ### 安装
 
 项目开发人员可安装 npm 或者 yarn 进行包管理，进入项目根目录，运行：
